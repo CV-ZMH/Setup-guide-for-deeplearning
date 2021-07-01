@@ -3,7 +3,7 @@
 ## Table  of content
 
 1. [Install nvidia driver 450](#install-nvidia-driver-450)
-2. [Install cuda-10.2 and cudnn 8.1.0](#install-cuda-and-cudnn)
+2. [Install cuda-10.2 and cudnn 8.0.5](#install-cuda-and-cudnn)
 3. [Install Anaconda and Create Environment](#install-anaconda-and-create-environment)
 4. [Install TensorRT-7.2.3](#install-tensorrt)
 5. [Install Torch2trt](#install-torch2trt)
@@ -54,14 +54,14 @@ export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRAR
 source ~/.bashrc
 ```
 
-### Step 2. CUDNN 8.1.0 Deb Files
+### Step 2. CUDNN 8.0.5 Deb Files
 
-- Downloads cudnn 8.1.0 deb files for cuda 10.2 from [nvidia developer website](https://developer.nvidia.com/rdp/cudnn-archive#a-collapse810-102)
-- Run these command to install cudnn 8.1.0
+- Downloads cudnn 8.0.5 deb files for cuda 10.2 from [nvidia developer website](https://developer.nvidia.com/rdp/cudnn-archive#a-collapse805-102)
+- Run these command to install cudnn 8.0.5
 ```bash
-sudo dpkg -i libcudnn8_8.1.0.77-1+cuda10.2_amd64.deb
-sudo dpkg -i libcudnn8-dev_8.1.0.77-1+cuda10.2_amd64.deb       
-sudo dpkg -i libcudnn8-samples_8.1.0.77-1+cuda10.2_amd64.deb      
+sudo dpkg -i libcudnn8_8.0.5.39-1+cuda10.2_amd64.deb
+sudo dpkg -i libcudnn8-dev_8.0.5.39-1+cuda10.2_amd64.deb       
+sudo dpkg -i libcudnn8-samples_8.0.5.39-1+cuda10.2_amd64.deb      
 ```
 
 ---
